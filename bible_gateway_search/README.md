@@ -17,7 +17,8 @@ Ex:
 `bb 1Tim3:15,4:10-13 esv`  
 `bb Juan 3:16, Matt 20:1 nasb` 
 
-Use the `Command` key to copy the passage(s) to your clipboard. A notification will show on successfull completion 
+When you action the query, it will show the passage(s) in large type.  
+Hold the `Command` key and action the query to copy the passage(s) to your clipboard. A notification will show on successfull completion 
 
 License: MIT License
 
