@@ -1,12 +1,16 @@
 ## Bible Gateway Search
-
-This workflow will scrape biblegateway.com to find the passage(s) you requested.
+This workflow will scrape biblegateway.com to find passages you request.
 
 #### Requirements:  
-python3, BeautifulSoup4 and requests.
+Python 3, and the BeautifulSoup4 and requests python modules.  
+To install the modules: `pip3 install bs4 requests`
+
+#### Setup:
+Edit the `DEFAULT_BIBLE_VERSION` environment variable to your favorite bible version
 
 #### Usage:
 
+###### Keyword
 `bb {query}`
 
 Your query should resemble bible references with or without specifying a version/translation seperated by a space at the end.
@@ -15,11 +19,20 @@ Ex:
 `bb 1 Timothy 3:15`  
 `bb 1Tim3:15-17`  
 `bb 1Tim3:15,4:10-13 esv`  
-`bb Juan 3:16, Matt 20:1 nasb` 
+`bb Juan 3:16, Matt 20:1 nasb`
 
-When you action the query, it will show the passage(s) in large type.  
-Hold the `Command` key and action the query to copy the passage(s) to your clipboard. A notification will show on successfull completion 
+Action the item in three different ways:
 
-License: MIT License
+* Actioning the item with no modifier keys held down will open the requested passage(s) on the BibleGateway website
+
+* Holding `Command` and actioning the item will copy the passage(s) to your clipboard. Press `Command+V` to paste them.
+
+* Holding `Option` and actioning the item will show the passage(s) in large type.
+
+###### Hotkey
+You can highlight/select any passage reference and use the hotkey `Command+Option+Control+B` to show the passage in large type. Try it out on one of the references above.
+
+#### License:
+MIT License
 
 Copyright © Joshua Smith
