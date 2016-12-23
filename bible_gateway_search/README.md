@@ -33,6 +33,6 @@ Action the item in three different ways:
 You can highlight/select any passage reference and use the hotkey `Command+Option+Control+B` to show the passage in large type. Try it out on one of the references above.
 
 #### License:
-MIT License
+Apache 2.0
 
 Copyright © Joshua Smith
