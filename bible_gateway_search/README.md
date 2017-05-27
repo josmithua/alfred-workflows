@@ -6,7 +6,7 @@ Python 3, and the BeautifulSoup4 and requests python modules.
 To install the modules: `pip3 install bs4 requests`
 
 #### Setup:
-Edit the `DEFAULT_BIBLE_VERSION` environment variable to your favorite bible version
+Edit the Alfred `DEFAULT_BIBLE_VERSION` environment variable to your favorite bible version. This will set the default bible version used to retrieve bible verses. Valid version strings can be found by viewing the version dropdown selector at biblegateway.com. A few examples are: ESV, RVR1960, SG21
 
 #### Usage:
 
